@@ -1,7 +1,10 @@
-.clients__title {
-  margin-bottom: 0;
+.clients {
   padding-top: 94px;
-  padding-bottom: 50px;
+  padding-bottom: 94px;
+}
+
+.clients__title {
+  margin-bottom: 50px;
   
   justify-content: center;
 }
@@ -10,8 +13,6 @@
   display: flex;
   flex-basis: calc(100% / 6 - 30px);
   margin-left: -30px;
-  
-  padding-bottom: 126px;
 }
   
 .clients__item {

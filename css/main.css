@@ -489,11 +489,11 @@ textarea {
   opacity: 0;
 }
 
-.checkbox__input:checked + .checkbox__icon use {
+.checkbox__input:checked + .checkbox__icon {
   border: none;
 }
 
-.checkbox__input:checked + .checkbox__icon use use {
+.checkbox__input:checked + .checkbox__icon use {
   opacity: 1;
 }
 
@@ -582,8 +582,7 @@ textarea {
 }
 
 .services__title {
-  margin-bottom: 0;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .services__info {
@@ -608,6 +607,7 @@ textarea {
 }
 
 .team {
+  padding-top: 94px;
   padding-bottom: 94px;
   background-color: #F5F4FA;
 }
@@ -636,9 +636,7 @@ textarea {
 }
 
 .team__title {
-  padding-top: 94px;
-  padding-bottom: 50px;
-  margin-bottom: 0;
+  margin-bottom: 50px;
 }
 
 .team__member {
@@ -711,10 +709,13 @@ textarea {
   fill: #ffffff;
 }
 
-.clients__title {
-  margin-bottom: 0;
+.clients {
   padding-top: 94px;
-  padding-bottom: 50px;
+  padding-bottom: 94px;
+}
+
+.clients__title {
+  margin-bottom: 50px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -727,7 +728,6 @@ textarea {
   -ms-flex-preferred-size: calc(100% / 6 - 30px);
       flex-basis: calc(100% / 6 - 30px);
   margin-left: -30px;
-  padding-bottom: 126px;
 }
 
 .clients__item {
@@ -982,22 +982,19 @@ textarea {
 }
 
 .filters {
-  padding-top: 71px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .filters__buttons {
-  padding-left: 0;
-  padding-right: 0;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .filters__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 56px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

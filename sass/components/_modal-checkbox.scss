@@ -32,14 +32,14 @@
 
   & use {
     opacity: 0;
+  }
 
-    .checkbox__input:checked + & {
-      border: none;  
-    }
-  
-    .checkbox__input:checked + & use {
-      opacity: 1;
-    }
+  .checkbox__input:checked + & {
+    border: none;  
+  }
+
+  .checkbox__input:checked + & use {
+    opacity: 1;
   }
 }
   
